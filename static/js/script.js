@@ -54,7 +54,7 @@ const createChatLi = (message, className) => {
 };
 
 const generateResponse = (chatElement, typingInterval) => {
-    const SERVER_URL = "http://127.0.0.1:5000//get-response";
+    const SERVER_URL = "https://pamgolding.onrender.com//get-response";
     const userId = getUserId();
 
     fetch(SERVER_URL, {
