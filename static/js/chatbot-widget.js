@@ -4,7 +4,7 @@
   }
 
   function sendMessageToChatbot(message) {
-    fetch('https://pamgolding.onrender.com//get-response', {
+    fetch('https://pamgolding.onrender.com', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ message: message })
