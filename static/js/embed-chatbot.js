@@ -63,7 +63,7 @@
           </button>
           <div class="chatbot">
             <header>
-              <img src="static/images/test.png" alt="Chatbot Icon" class="header-img" style="width: 320px;height: fit-content;margin-right: 10px;margin-left: 45px;margin-top: 0px;margin-bottom: 0px;filter: invert(0);">
+              <img src="https://pamgolding.onrender.com/static/images/test.png" alt="Chatbot Icon" class="header-img" style="width: 320px;height: fit-content;margin-right: 10px;margin-left: 45px;margin-top: 0px;margin-bottom: 0px;filter: invert(0);">
               <span class="close-btn material-symbols-outlined">close</span>
             </header>
             <ul class="chatbox">
@@ -90,8 +90,8 @@
     }
   
     // Load the chatbot assets
-    loadCSS('http://127.0.0.1:5000/static/style.css');
-    loadJS('http://127.0.0.1:5000/static/js/script.js');
+    loadCSS('https://pamgolding.onrender.com/static/style.css');
+    loadJS('https://pamgolding.onrender.com/static/js/script.js');
   
     // Inject the chatbot HTML into the host page
     injectChatbot();
